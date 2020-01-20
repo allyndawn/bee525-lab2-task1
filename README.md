@@ -18,3 +18,17 @@
 - Added TivaWare path for includes
 - Added missing NVIC_EN0_INT19 define
 - Changed `Use` setting on project options Debug tab from Simulator to `Stellaris ICDI`
+
+## Running
+
+- Connect your Tiva C Series LaunchPad device to your computer with the Device/Debug switch set to Debug
+- Open the ADCSWTrigger.uvproj file in Keil uVision
+- From the Project menu, click on Rebuild all target files
+- From the Flash menu, click on Download
+- From the Debug menu, click on Start/Stop Debug Session
+- Dismiss the Evaluation Mode dialog, if you get one, by clicking OK
+- From the Debug menu, click on Run
+- Observe the ADCValue changing every few seconds in the Watch1 panel
+- Observe the rapidly flashing (10 Hz) blue LED on the Tiva LaunchPad (near the RESET button)
+- When done, from the Debug menu, click on Stop and then Start/Stop Debug Session
+
