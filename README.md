@@ -11,9 +11,10 @@
 
 ## Based On
 
-- [ADCSWTrigger_4C123 project by Dr. Valvano](http://users.ece.utexas.edu/~valvano/arm/) [Direct Link](http://users.ece.utexas.edu/~valvano/arm/ADCSWTrigger_4C123.zip)
+- [ADCSWTrigger_4C123 project by Dr. Valvano](http://users.ece.utexas.edu/~valvano/arm/) - [Direct Link](http://users.ece.utexas.edu/~valvano/arm/ADCSWTrigger_4C123.zip)
 
 ## Modifications
 
 - Added TivaWare path for includes
 - Added missing NVIC_EN0_INT19 define
+- Changed `Use` setting on project options Debug tab from Simulator to `Stellaris ICDI`
