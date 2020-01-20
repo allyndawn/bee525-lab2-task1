@@ -1,1 +1,7 @@
 *.build_log.htm
+*.d
+*.o
+*.bak
+*.dep
+*.lst
+*.uvgui.*
