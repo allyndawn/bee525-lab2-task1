@@ -31,6 +31,7 @@
 #include "PLL.h"
 
 #define GPIO_PORTF2             (*((volatile uint32_t *)0x40025010))
+#define NVIC_EN0_INT19          0x00080000 // Interrupt 19 enable
 
 void DisableInterrupts(void); // Disable interrupts
 void EnableInterrupts(void);  // Enable interrupts
