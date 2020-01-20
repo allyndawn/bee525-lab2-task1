@@ -32,3 +32,8 @@
 - Observe the rapidly flashing (10 Hz) blue LED on the Tiva LaunchPad (near the RESET button)
 - When done, from the Debug menu, click on Stop and then Start/Stop Debug Session
 
+## Screenshots
+
+![Screenshot](images/debugging.PNG)
+
+
